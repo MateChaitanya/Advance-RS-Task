@@ -21,9 +21,9 @@ public class App
     
   JdbcTemplate jdbcTemplate =  context.getBean(JdbcTemplate.class);
  // ---------Insert Operation-----------
-  int std_roll=102;
-	 String std_name="ganesh";
-	 float std_marks = 94.4f;
+  /*int std_roll=101;
+	 String std_name="Chaitanya";
+	 float std_marks = 95;
   
   String insert_sql_query ="insert into student values(?,?,?)";
   int count =jdbcTemplate.update(insert_sql_query,std_roll,std_name,std_marks );
@@ -34,10 +34,10 @@ public class App
   else {
 	 System.out.println("insert not Success");
 
-  }
+  }*/
   //-----------UPDATE OPERATION ------------
   
- /* float marks =98.33f;
+  float marks =98.33f;
   int rollno =101;
   String update_sql_query ="update student  set std_marks=? where std_roll=?";
   int count =jdbcTemplate.update(update_sql_query,marks,rollno );
@@ -49,7 +49,7 @@ public class App
   {
 	 System.out.println("updation failed");
 
-  }*/
+  }
   
   
   //------------------- DELETE OPERATION-------------
