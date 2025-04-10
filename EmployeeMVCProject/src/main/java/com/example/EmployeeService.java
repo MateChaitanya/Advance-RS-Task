@@ -51,14 +51,14 @@ public class EmployeeService {
 	@RequestMapping(path = "addEmp",method = RequestMethod.POST)
 	public String addEmployee(@ModelAttribute Employee emp,Model m) {
 		m.addAttribute("emp1",emp);
-		int b =15/0;
+		//int b =15/0;
 		return "home";
 	}
 	
-	@ExceptionHandler(Exception.class)
-	public String exceptionHandler() {
-		return "errorPage";
-	}
+//	@ExceptionHandler(Exception.class)
+//	public String exceptionHandler() {
+//		return "errorPage";
+//	}
 //	
 //	public void deleteEmployee(int id) {
 //		
