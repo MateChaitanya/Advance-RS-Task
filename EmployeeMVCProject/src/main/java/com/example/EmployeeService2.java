@@ -14,10 +14,10 @@ public class EmployeeService2 {
        return "home";
    }
 
-   // Exception handler method
-   @ExceptionHandler(ArithmeticException.class)
-   public String handleArithmeticException(ArithmeticException ex, Model model) {
-       model.addAttribute("errorMessage", "An arithmetic error occurred: " + ex.getMessage());
-       return "errorPage"; 
-   }
+//   // Exception handler method
+//   @ExceptionHandler(ArithmeticException.class)
+//   public String handleArithmeticException(ArithmeticException ex, Model model) {
+//       model.addAttribute("errorMessage", "An arithmetic error occurred: " + ex.getMessage());
+//       return "errorPage"; 
+//   }
 }

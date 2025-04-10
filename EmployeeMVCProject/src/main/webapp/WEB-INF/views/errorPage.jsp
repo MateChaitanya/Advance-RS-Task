@@ -1,12 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@ page isELIgnored="false" %>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
+<head><title>Error Page</title></head>
 <body>
-<h2>Exception Occured</h2>
+   <h2>Error occurred</h2>
+   <p>${errorMsg}</p>
+   <a href="home.jsp">Go Back to Home</a>
 </body>
 </html>
