@@ -20,32 +20,6 @@ public class EmployeeService {
 		return "callPost";
 	}
 	
-//	@RequestMapping("/sendData")
-//	public String sendDataToJsp(Model model) {
-//		model.addAttribute("name", 100);
-//		
-//		return "home";
-//	}
-//	
-//	@RequestMapping("/")
-//	public ModelAndView sendDataToJsp2() {
-//		ModelAndView mv=new ModelAndView();
-//		mv.setViewName("home");
-//		mv.addObject("name","Pual");
-//		return mv;
-//	}
-	
-//	@RequestMapping("/kbc")
-//	public void clientToServer(@RequestParam("name") String abc) {
-//		System.out.println(abc);
-//	}
-//	// url= kbc?name=value
-	
-//	@RequestMapping("/path/{xyz}")
-//	public void clientToServer2(@PathVariable("xyz") String abc) {
-//		System.out.println(abc);
-//	}
-//	// url= /path/value
 	
 	
 	@RequestMapping(path = "addEmp",method = RequestMethod.POST)
@@ -76,9 +50,5 @@ public class EmployeeService {
 //		return null;
 //	}
 	
-	
-	// mapping in web.xml bcoz we need to define servlet 
-	// we create bean of ViewResolver in xml bcoz spring internally use it when we return views
-	
-	// send data from java to jsp we use Model class 
+
 }
