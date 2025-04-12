@@ -33,22 +33,8 @@ public class EmployeeService {
 //	public String exceptionHandler() {
 //		return "errorPage";
 //	}
-//	
-//	public void deleteEmployee(int id) {
-//		
-//	}
-//	
-//	public void updateSalary(int id) {
-//		
-//	}
-//	
-//	public Employee getEmployee() {
-//		return null;
-//	}
-//	
-//	public List<Employee> getAllEmployee(){
-//		return null;
-//	}
+	
+
 	
 
 }
