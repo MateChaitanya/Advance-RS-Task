@@ -23,10 +23,5 @@ public class JsonController {
         return new ResponseEntity<Employee>(emp,HttpStatus.FORBIDDEN);
     }
 
-    @RequestMapping("/customResponse")
-    public ResponseEntity<MyResponseEntity<Employee>> customResponse() {
-        Employee emp = new Employee(11, "Mate Chaitanya", "IT", 75000);
-        MyResponseEntity<Employee> customResponse = new MyResponseEntity<>(emp, HttpStatus.OK);
-        return new ResponseEntity<>(customResponse, HttpStatus.OK);
-    }
+   
 }
